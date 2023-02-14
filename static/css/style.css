@@ -1,0 +1,187 @@
+/* Common ***********************/
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* post ************************/
+
+.post_form {
+  padding: 17px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+  position: relative;
+  float: left;
+  width: 50px;
+  margin: 0px 20px 0px 0px;
+}
+
+.post_form .tweet {
+  width: 20%;
+  color: white;
+  margin: 10px 31px 0px;
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  background-color: #91dc5a;
+}
+
+.post_form .name {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #e5f4d9;
+}
+
+.post_form textarea {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  font-family: inherit;
+}
+
+.posts ul {
+  padding: 0;
+}
+
+.posts li {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 17px;
+}
+
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.header img {
+  position: relative;
+  float: left;
+  width: 50px;
+  margin: 1px 18px 1px 5px;
+}
+
+.header h1 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: sans-serif;
+}
+
+.header {
+  border: 1px solid #ccc;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.posts li .logo {
+  flex-basis: 15%;
+}
+
+.posts li .logo img {
+  width: 60%;
+}
+.posts li .name_body {
+  flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+  font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+  color: gray;
+}
+
+.file {
+  border: 1px solid #ccc;
+  padding: 6px;
+  margin: 0px 0px 0px 78px;
+}
+.image2 {
+  width: 70%;
+  margin-left: 80px;
+}
+.image-post {
+  width: 70%;
+
+}
+
+.cancel {
+  text-decoration: none;
+  width: 17%;
+  color: white;
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.update {
+  width: 17%;
+  color: white;
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  background-color: #91dc5a;
+}
+
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
